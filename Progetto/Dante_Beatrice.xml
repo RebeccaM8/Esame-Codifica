@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<?xml-stylesheet type="text/xsl" href="stylesheet2.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>L'incontro di Dante con Beatrice - Edizione digitale</title>
+                <!-- TRASCRITTORE nome e cognome-->
+                <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="RM">Rebecca Moggia</name>
+                    <name xml:id="CM">Chiara Montesano</name>
+                    <name xml:id="EM">Eleni Moussas</name>
+                </respStmt>
+				
+                <!-- ENTE DI APPARTENENZA -->
+                <respStmt>
+                    <resp>Ente di Appartenenza</resp>
+                    <name type="comune" xml:id="SP">Comune della Spezia</name>
+                </respStmt>
+                
+            </titleStmt>
+			
+            <editionStmt>
+                <edition>Studenti di Codifica di Testi, Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                    <!-- COMPILAZIONE -->
+                    <date>2019</date>
+                </edition>
+                
+                <!-- NOME COMPILATORE -->
+                <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="TC">Tommaso Castagneto</name>
+                </respStmt>
+                
+                <!-- REFERENTE SCIENTIFICO sempre Nome Cognome, XY2 è sempre Tommaso Castagneto, XZ1 è chi interviene sulla schedatura già fatta per correzioni e aggiunte-->
+                <respStmt>
+                   
+                    <resp>Compilatore</resp>
+                    <name xml:id="TC2">Tommaso Castagneto</name>
+                    <name xml:id="RM2">Rebecca Moggia</name>
+                    <name xml:id="CM2">Chiara Montesano</name>
+                    <name xml:id="EM2">Eleni Moussas</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Responsabile scientifico</resp>
+                    <name xml:id="GP">Giacomo Paolicchi</name>
+                    <name xml:id="ES">Enrica Salvatori</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Funzionario responsabile</resp>
+                    <name xml:id="MR">Marzia Ratti</name>
+                </respStmt>
+            </editionStmt>
+            
+            <publicationStmt>
+                <publisher>Unipi</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2019">2019</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+            
+            <seriesStmt>
+              <title>Cimeli garibaldini e della Prima Guerra Mondiale</title>
+              <idno>7694-101</idno>
+                <!--<p>La cartolina appartiene alla sezione dei cimeli garibaldini e della Prim Guerra Mondiale del Museo Civico Etnografico "Giovanni Podenzana"</p>-->
+           </seriesStmt>
+            
+            <!-- NOTE NB: mettere qui tutto ciò che non rientra nella codifica -->
+            <notesStmt>
+                <note>Sul retro troviamo la stampa "Proprietà artistica riservata - N 1005-1"</note>
+            </notesStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    <!-- TITOLO Quello che si ricava dalla cartolina; Se un documento composto da immagini 
+                        non presenta un titolo o altri elementi considerabili come titolo, si formula un titolo sintetico 
+                        registrandolo entro parentesi quadre [Venere al bagno] ma indicando dentro la codifica come qui sotto esemplificato-->
+                    
+                    <title type="custom" resp="#DB">L'incontro di Dante con Beatrice</title>
+                    <author ref="#AB">Aurelio Bertiglia</author> <!-- ref="#NomeCognome"-->
+                    <!-- PRODUZIONE Chi ha prodotto / pubblicato la cartolina. Se non presente togliere il tag  -->
+                    <publisher>CCM Editore</publisher>
+                    <!-- LUOGO -->
+                    <!-- <pubPlace>Luogo</pubPlace> -->
+                    <!-- CRONOLOGIA, attenzione si riferisce solo alla data di stampa -->
+                    <date>1917</date>
+                </bibl>
+                <msDesc>
+                    <!-- COLLOCAZIONE SPECIFICA -->
+                    <!-- CODICE IDENTIFICATIVO -->
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement ref="#SP">La Spezia (SP)</settlement> <!-- ref="#SP"-->
+                        <!-- COLLOCAZIONE SPECIFICA -->
+                        <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <!-- CODICE IDENTIFICATIVO -->
+                        <idno>7694_101_001/002</idno>
+                    </msIdentifier>
+                    
+                    <!-- Informazioni sul contenuto della cartolina -->
+                    <!-- DESCRIZIONE -->
+                    <msContents>
+                        <summary>Cartolina Artistica</summary>
+                        <textLang>Italiano</textLang>
+                    </msContents>
+                    
+                    
+                    
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <!-- MATERIALI -->
+                                    <material>Carta</material>
+                                    <!-- DIMENSIONE -->
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                    <stamp>Francobollo - Regno d'Italia</stamp>
+                                </support>
+                                
+                                <!-- CONSERVAZIONE 
+                                buono = non occorrono interventi di restauro;
+discreto = perfettamente leggibile in tutte le componenti ma con rischi di deterioramento per usura;
+mediocre = perfettamente leggibile, ma mancano alcune sue parti;
+cattivo = intaccato da parassiti o deteriorato da cattivi interventi passati o mancanti di parti rilevanti, necessita di restauro-->
+                                <condition>Buono</condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+            
+                    
+                </msDesc>
+                
+                <!-- NOMI -->
+                
+                <listPerson>
+                    
+                   
+                    <person xml:id="GC">
+                        <persName>
+                            <forename>Giovanni</forename>
+                            <surname>Coliola </surname>
+                        </persName>
+                        <sex>M</sex>
+                        <occupation n="1">[maggiore]</occupation>
+                        <note>Mittente</note>
+                    </person>
+                    <person xml:id="OT">
+                        <persName>
+                            <forename>Oliva</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+                        <sex>F</sex>
+                        <note>Destinatario</note>
+                    </person>
+                    <person xml:id="AB">
+                      <persName>
+                        <forename>Aurelio</forename>
+                        <surname>Bertiglia</surname>
+                      </persName>
+                      <sex>M</sex>
+                      <occupation n="2">Illustratore</occupation>
+                      <note>Nato a Torino il 23 giugno 1891, fu un illustratore, caricaturista e graphic designer. La sua istruzione in ambito artistico fu principalmente da autodidatta.</note>
+                    </person>
+                </listPerson>
+                
+                <listPlace>
+                    <place xml:id="RV">
+                        <placeName>Ravenna</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Ravenna</district>
+                        <district type="provincia">RV</district>
+                        <country key="N">IT</country>
+                        <note>Città del destinatario</note>
+                    </place>
+                    <place xml:id="MO">
+                      <placeName>Modena</placeName>
+                      <settlement type="località">città</settlement>
+                      <district type="comune">Modena</district>
+                      <district type="provincia">MO</district>
+                      <country key="N">IT</country>
+                      <note>Città del mittente</note>
+                    </place>
+                </listPlace>
+                
+                
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GC"/>
+                    <placeName ref="#MO"/>
+                    <!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
+                    <date type="postage" when="1917-09-29">1917/09/29</date>
+                    <date type="writing" when="1917-09-29">1917/09/29</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#OT"/>
+                    <placeName ref="#RV"/>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords scheme="">
+                    <!-- soggettario -->
+                    <!-- tipologia -->
+                    <!-- descrizione -->
+                    <term>Cartolina</term>
+                    <term>Cartolina Artistica</term>
+                    <term>L' incontro di Dante con Beatrice ha qui per protagonisti dei bambini</term>
+                </keywords>
+            </textClass>
+            
+            <langUsage>
+                <language ident="it-IT">Italiano</language>
+            </langUsage>
+        </profileDesc>
+        
+    </teiHeader>
+    
+    
+    <facsimile>
+      <surface xml:id="fronte_101" start="#fronte_101" n="1">
+        <graphic url='imgCartoline/7694-101F.jpg' width='1649px' height='1037px' />
+        <!--<zone xml:id="FI" ulx="1084" uly="17" lrx="1627" lry="177" />
+         <note>Città di Firenze</note>
+        <zone xml:id="DA" ulx="949" uly="255" lrx="1251" lry="483" />
+          <note>Dante Alighieri</note>
+        <zone xml:id="BE" ulx="340" uly="204" lrx="614" lry="430" />
+          <note>Beatrice Portinari</note>
+        <zone xml:id="PC" ulx="5" uly="461" lrx="169" lry="860" />
+          <note>Piccioni</note>
+        <zone xml:id="AR" ulx="676" uly="226" lrx="901" lry="286" />
+         <note>Fiume Arno</note>-->
+        <zone xml:id="SIG_101" ulx="1484" uly="998" lrx="1646" lry="1035" />
+         <!-- <note>Firma dell'autore dell'illustrazione</note>-->
+      </surface>
+      <surface xml:id="retro_101" start="#retro_101" n="2">
+        <graphic url="imgCartoline/7694-101R.jpg" width='1654px' height='1056px' />
+          <zone xml:id="LD_101" ulx="621" uly="78" lrx="756" lry="847" />
+          <zone xml:id="MS_101" ulx="414" uly="103" lrx="591" lry="846" />
+          <zone xml:id="SIG2_101" ulx="113" uly="125" lrx="389" lry="841" />
+          <zone xml:id="AD1_101" ulx="759" uly="233" lrx="983" lry="352" />
+          <zone xml:id="AD2_101" ulx="778" uly="392" lrx="1611" lry="543" />
+          <zone xml:id="AD3_101" ulx="789" uly="550" lrx="1641" lry="677" />
+          <zone xml:id="AD4_101" ulx="886" uly="706" lrx="1644" lry="958" />
+          <zone xml:id="ST_101" ulx="1089" uly="31" lrx="1582" lry="395" />
+          <zone xml:id="TIP_101" ulx="706" uly="944" lrx="849" lry="1009" /> <!--CCM-->
+          <zone xml:id="DESC_101" ulx="89" uly="849" lrx="666" lry="927" />
+          <zone xml:id="PAR_101" ulx="31" uly="257" lrx="94" lry="819" />
+          <zone xml:id="NS_101" ulx="23" uly="16" lrx="174" lry="98" />
+      </surface>
+    </facsimile> 
+    
+    
+    
+    
+    
+    <!-- DEFINIZIONE -->
+    <text type="cartolina">
+        <!-- TRASCRIZIONE FRONTE -->
+        <body>
+            <div facs="fronte_101" type="fronte">
+                <figure>
+                    <graphic url="imgCartoline/7694-101F.jpg" />
+                    <figDesc>L' incontro di Dante con Beatrice ha qui per protagonisti dei bambini</figDesc>
+                    <head facs="#SIG_101"><persName ref="#AB">Aurelio Bertiglia</persName></head>
+                </figure>
+            </div>
+			<!-- TRASCRIZIONE RETRO -->
+            <div facs="#retro_101" type="retro">
+            <!--TRASCRIZIONE MESSAGGIO-->
+              <div type="message">
+                <p facs="#LD_101">
+                  <placeName ref="#MO">Modena</placeName> <date when="1917-09-29">29/<hi rend="dep">9</hi> - 1917 -</date>
+                </p>
+                <p facs="#MS_101">Ricordi affettuosi e carissimi </p>
+                <signed facs="#SIG2_101"><persName ref="#GC">Giovannino</persName></signed>
+              </div>
+              <!--TRASCRIZIONE DESTINAZIONE-->
+              <div type="destination">
+                <p>
+                  <address>
+                    <addrLine facs="#AD1_101"><choice><abbr>Gent.</abbr><expan>Gent<ex>ile</ex></expan></choice></addrLine>
+                            <addrLine facs="#AD2_101">
+                                <persName ref="#OT">Olivia Turtura</persName>
+                            </addrLine>
+                            <addrLine facs="#AD3_101">Via Girolamo Rossi 58</addrLine>
+                            <addrLine facs="#AD4_101">
+                                <placeName ref="#RV">Ravenna</placeName>
+                            </addrLine>
+                  </address>
+                </p>
+            <!--TRASCRIZIONE TIMBRI E FRANCOBOLLO-->
+                <p>
+                  <stamp facs="#ST_101" type="postmark">
+                  <gap reason="illegible" quantity="1" unit="chars"/>
+                  <date when="1917-5-27">27.5.17</date>
+                    <mentioned>
+                      <placeName ref="#MO">Modena</placeName><unclear cert="high" reason="illegible">Ferrovia</unclear>
+                    </mentioned>
+                  </stamp>
+                  <stamp facs="#ST_101" type="postmark"> 
+                  <date when="1917-5-27">27.5.17</date>
+                    <mentioned>
+                      <placeName ref="#MO">Modena</placeName><unclear cert="high" reason="illegible">Ferrovia</unclear>
+                    </mentioned>
+                  </stamp>
+                  <stamp facs="#ST_101" type="postage">Francobollo da 5 centesimi del Regno d'Italia</stamp>
+                </p>
+            <!--TRASCRIZIONI PARTI ALTRE-->
+              <div type="printed">
+                <p facs="TIP_101">CCM</p>
+              </div>
+              <div type="printed">
+                <p facs="DESC_101">L'incontro di Dante con Beatrice - La rencontre de Dante avec Beatrice</p>
+              </div>
+              <div type ="printed">
+                <p facs="PAR_101">Proprietà artistica riservata - N.1005-1</p>
+              </div>
+              <div>
+                <p facs="NS_101">101</p>
+              </div>
+              </div>
+         </div>
+      </body>
+    </text>
+  </TEI>
